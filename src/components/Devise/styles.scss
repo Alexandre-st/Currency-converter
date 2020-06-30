@@ -1,0 +1,24 @@
+.devise {
+  margin-bottom: 1em;
+  height: 25em;
+  overflow-y: scroll;
+  border-radius: 0.8em;
+  scrollbar-width: thin;
+  margin: 0.8em;
+  background-color: #833471;
+  -webkit-box-shadow: 0 0 5px 2px #833471;
+  box-shadow: 0 0 5px 2px #833471;
+
+
+  &-currency {
+    padding: 0.7em;
+    border-top: 0 1px 0 1px solid white;
+    width: 100%;
+    color: white;
+  }
+
+  &-currency:hover {
+    background-color: #B53471;
+    color: white;
+  }
+}
